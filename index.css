@@ -25,7 +25,6 @@ button {
 }
 .eye-right, .eye-left {
     background-image: radial-gradient(grey, black);
-    /* background-image: radial-gradient(yellow 40%, red); */
     border-radius: 10px;
     padding: 15px;
     margin: 16px;
@@ -52,7 +51,7 @@ button {
     margin: 0 auto;
 }
 .torso-screen {
-    background-image: radial-gradient(green, black);
+    background-image: radial-gradient(grey, black);
     border-radius: 10px;
     height: 100px;
     width: 150px;
@@ -85,7 +84,7 @@ button {
 .weel {
     margin: -10px auto;
     background-color: grey;
-    border: dashed 2px black;
+    border: dashed 3px black;
     padding: 50px;
     height: fit-content;
     width: fit-content;
@@ -93,6 +92,7 @@ button {
 }
 .weel-inner {
     background-color: black;
+    border: 4px dashed grey;
     padding: 20px;
     border-radius: 100%;
 }
