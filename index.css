@@ -116,6 +116,7 @@ button {
 }
 .hand-left, .hand-right {
     background-image: radial-gradient(rgb(16, 78, 133) 10%, black);
+    border: 2px solid black;
     padding: 15px 100px;
 }
 .hand-left {
