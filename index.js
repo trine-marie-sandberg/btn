@@ -8,13 +8,11 @@ robot.addEventListener("click", () => {
 
 const eyeLeft = document.getElementById("eye-left")
 const eyeRight = document.getElementById("eye-right")
-
 const screen = document.getElementById("screen");
 screen.style.backgroundImage = "radial-gradient(grey, black)"
 const message = document.getElementById("message");
 message.innerText = "";
 const weelOuter = document.getElementById("weel-outer");
-
 const handLeft = document.querySelector(".hand-left");
 const handRight = document.querySelector(".hand-right");
 

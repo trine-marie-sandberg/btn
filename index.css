@@ -140,10 +140,8 @@ button {
     height: 150px;
     width: 150px;
     border-radius: 100%;
-    transition: all 10s ease-in-out;
 }
 #weel-outer {
-    transition: all 10s ease-in-out;
     display: flex;
     align-items: center;
     justify-content: center;
