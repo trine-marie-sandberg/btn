@@ -22,7 +22,7 @@ function robotOff() {
     eyeLeft.style.backgroundImage = "radial-gradient(grey, black)";
     eyeRight.style.backgroundImage = "radial-gradient(grey, black)";
     screen.style.backgroundImage = "radial-gradient(grey, black)";
-    weelOuter.style.transition = "all 1s ease-in-out";
+    weelOuter.classList.remove("weel-rotate");
     message.innerText = "";
     isOn = false;
 }
@@ -30,7 +30,7 @@ function robotOn() {
     eyeLeft.style.backgroundImage = "radial-gradient(yellow 40%, red)";
     eyeRight.style.backgroundImage = "radial-gradient(yellow 40%, red)";
     screen.style.backgroundImage = "radial-gradient(green, black)";
-    weelOuter.style.transform = "rotate(360deg)";
+    weelOuter.classList.add("weel-rotate");
     weelOuter.style.transition = "all 10s ease-in-out";
     handRight.style.transform = "rotateY(360deg)";
     handLeft.style.transform = "rotateY(360deg)";
