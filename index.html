@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="/index.css">
 </head>
 <body>
-    <script type="module" src="/index.js"></script>
+    <button id="fish-bowl">
+        <div id="bowl-detail">
+            <div id="fish" class="round-motion"></div>
+        </div>
+    </button>
     <button id="robot">
         <div class="head">
             <div class="eye-right" id="eye-right">
@@ -31,9 +35,10 @@
                 </div>
             </div>
         </div>
-        <div class="weel">
+        <div class="weel" id="weel-outer">
             <div class="weel-inner"></div>
         </div>
     </button>
+    <script type="module" src="/index.js"></script>
 </body>
 </html>
